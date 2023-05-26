@@ -7,6 +7,42 @@
 body{
     height: 100vh;
     overflow: hidden;
-    width: 100px;
+}
+
+video{
+    width: 100%;
+}
+
+.taskbar{
+    background-color: rgb(243,243,243);
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 110;
+}
+
+.right-taskbar{
+    height: 30px;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    margin: 2px;
+}
+
+.home-window{
+    width: 100%;
+    position: absolute;
+    bottom: -280px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.home-window img{
+    border-radius: 5px;
+    width: 30%;
 }
 
